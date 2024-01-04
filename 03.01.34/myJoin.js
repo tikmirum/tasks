@@ -1,5 +1,5 @@
 const arr =[10,20,30,40,50]
-arr.myJoin = function(name) {
+Array.prototype.myJoin = function(name) {
     if(typeof name !== 'string'){
         console.log('argument must be a string')
         return
