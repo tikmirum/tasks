@@ -4,7 +4,7 @@ Array.prototype.myJoin = function(name) {
         console.log('argument must be a string')
         return
     }
-    let newName = name.toString();
+    let newName = name;
     let newString = '';
     for(let i=0; i<this.length; i++){
         const el = this[i];
